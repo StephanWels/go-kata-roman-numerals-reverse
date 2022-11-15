@@ -1,6 +1,6 @@
 package roman
 
-func Decode(roman string) int {
-	// TODO: write a functional decode function for roman numerals
-	return 0
+func Encode(value int) string {
+	// TODO: write a functional encode function for roman numerals
+	return ""
 }
