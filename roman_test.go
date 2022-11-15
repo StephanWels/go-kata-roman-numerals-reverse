@@ -7,13 +7,13 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestRomanNumeralDecoder(t *testing.T) {
+func TestRomanNumeralEncoder(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "Roman Numeral Suite")
 }
 
-var _ = Describe("test roman to decimal converter", func() {
-	It("should give decimal number from roman", func() {
+var _ = Describe("test decimal to roman numeral converter", func() {
+	It("should give roman numeral for positive integer", func() {
 // 		Expect(Decode(...)).To(Equal(...))
 	})
 })
