@@ -14,6 +14,6 @@ func TestRomanNumeralEncoder(t *testing.T) {
 
 var _ = Describe("test decimal to roman numeral converter", func() {
 	It("should give roman numeral for positive integer", func() {
-// 		Expect(Decode(...)).To(Equal(...))
+// 		Expect(Encode(...)).To(Equal(...))
 	})
 })
